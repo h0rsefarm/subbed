@@ -1,0 +1,19 @@
+{
+  "name": "subbed",
+  "version": "1.0.0",
+  "description": "An app to track your auto-renewing subscriptions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h0rsefarm/subbed.git"
+  },
+  "author": "Tyler Lego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h0rsefarm/subbed/issues"
+  },
+  "homepage": "https://github.com/h0rsefarm/subbed#readme"
+}
