@@ -4,7 +4,8 @@
   "description": "An app to track your auto-renewing subscriptions",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/h0rsefarm/subbed/issues"
   },
-  "homepage": "https://github.com/h0rsefarm/subbed#readme"
+  "homepage": "https://github.com/h0rsefarm/subbed#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  }
 }
